@@ -16,6 +16,8 @@
 		E491BBF524BED89A00D72AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E491BBF324BED89A00D72AD9 /* LaunchScreen.storyboard */; };
 		E491BC0024BED89A00D72AD9 /* finalProjectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBFF24BED89A00D72AD9 /* finalProjectAppTests.swift */; };
 		E491BC0B24BED89A00D72AD9 /* finalProjectAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BC0A24BED89A00D72AD9 /* finalProjectAppUITests.swift */; };
+		E491BC1924BEDCF000D72AD9 /* MedicalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BC1824BEDCF000D72AD9 /* MedicalInfoViewController.swift */; };
+		E491BC1B24BEDE4200D72AD9 /* PlantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E491BC0624BED89A00D72AD9 /* finalProjectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E491BC0A24BED89A00D72AD9 /* finalProjectAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectAppUITests.swift; sourceTree = "<group>"; };
 		E491BC0C24BED89A00D72AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E491BC1824BEDCF000D72AD9 /* MedicalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalInfoViewController.swift; sourceTree = "<group>"; };
+		E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				E491BBF324BED89A00D72AD9 /* LaunchScreen.storyboard */,
 				E491BBF624BED89A00D72AD9 /* Info.plist */,
 				E491BBEE24BED89800D72AD9 /* finalProjectApp.xcdatamodeld */,
+				E491BC1824BEDCF000D72AD9 /* MedicalInfoViewController.swift */,
+				E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */,
 			);
 			path = finalProjectApp;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E491BBEA24BED89800D72AD9 /* ViewController.swift in Sources */,
+				E491BC1B24BEDE4200D72AD9 /* PlantPageViewController.swift in Sources */,
+				E491BC1924BEDCF000D72AD9 /* MedicalInfoViewController.swift in Sources */,
 				E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */,
 				E491BBF024BED89800D72AD9 /* finalProjectApp.xcdatamodeld in Sources */,
 				E491BBE824BED89800D72AD9 /* SceneDelegate.swift in Sources */,

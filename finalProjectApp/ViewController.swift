@@ -18,3 +18,10 @@ class ViewController: UIViewController {
 
 }
 
+
+//Color Scheme Hex Values
+//6B9080
+//A4C3B2
+//CCE3DE
+//EAF4F4
+//F6FFF8
