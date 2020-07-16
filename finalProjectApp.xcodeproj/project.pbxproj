@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E35A5824C0DB95001E9144 /* TimerViewController.swift */; };
 		E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE524BED89800D72AD9 /* AppDelegate.swift */; };
 		E491BBE824BED89800D72AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE724BED89800D72AD9 /* SceneDelegate.swift */; };
 		E491BBEA24BED89800D72AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE924BED89800D72AD9 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43E35A5824C0DB95001E9144 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		E491BBE224BED89800D72AD9 /* finalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E491BBE524BED89800D72AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E491BBE724BED89800D72AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				E491BBEE24BED89800D72AD9 /* finalProjectApp.xcdatamodeld */,
 				E491BC1824BEDCF000D72AD9 /* MedicalInfoViewController.swift */,
 				E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */,
+				43E35A5824C0DB95001E9144 /* TimerViewController.swift */,
 			);
 			path = finalProjectApp;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				E491BBEA24BED89800D72AD9 /* ViewController.swift in Sources */,
 				E491BC1B24BEDE4200D72AD9 /* PlantPageViewController.swift in Sources */,
 				E491BC1924BEDCF000D72AD9 /* MedicalInfoViewController.swift in Sources */,
+				43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */,
 				E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */,
 				E491BBF024BED89800D72AD9 /* finalProjectApp.xcdatamodeld in Sources */,
 				E491BBE824BED89800D72AD9 /* SceneDelegate.swift in Sources */,
