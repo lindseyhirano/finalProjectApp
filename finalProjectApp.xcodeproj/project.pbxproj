@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2FB3B5D60FD9FADBFC1AB92C /* Pods_finalProjectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147381667ECA4820D98CE091 /* Pods_finalProjectApp.framework */; };
 		43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E35A5824C0DB95001E9144 /* TimerViewController.swift */; };
+		43E35A5B24C0F488001E9144 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E35A5A24C0F488001E9144 /* CameraViewController.swift */; };
 		6F5C69CA66DBF894CD1D85D0 /* Pods_finalProjectAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C3679B8068F03153B1E748 /* Pods_finalProjectAppTests.framework */; };
 		793BD4ADA204C14A915191DE /* Pods_finalProjectApp_finalProjectAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C09166F09E951EF8E9F2351 /* Pods_finalProjectApp_finalProjectAppUITests.framework */; };
 		E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE524BED89800D72AD9 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		16AAA69B0C69E3D84411704C /* Pods-finalProjectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp.release.xcconfig"; path = "Target Support Files/Pods-finalProjectApp/Pods-finalProjectApp.release.xcconfig"; sourceTree = "<group>"; };
 		42A41A82472AC338253BDE1A /* Pods-finalProjectAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectAppTests.release.xcconfig"; path = "Target Support Files/Pods-finalProjectAppTests/Pods-finalProjectAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		43E35A5824C0DB95001E9144 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		43E35A5A24C0F488001E9144 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		541B5CE6D02751AC96920109 /* Pods-finalProjectAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectAppTests.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectAppTests/Pods-finalProjectAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85B58BD1DFDD4BA9EA513C5A /* Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectApp-finalProjectAppUITests/Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBAD96B1567929CBFA4B2AAC /* Pods-finalProjectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectApp/Pods-finalProjectApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				541B5CE6D02751AC96920109 /* Pods-finalProjectAppTests.debug.xcconfig */,
 				42A41A82472AC338253BDE1A /* Pods-finalProjectAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +150,7 @@
 				E491BC1824BEDCF000D72AD9 /* MedicalInfoViewController.swift */,
 				E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */,
 				43E35A5824C0DB95001E9144 /* TimerViewController.swift */,
+				43E35A5A24C0F488001E9144 /* CameraViewController.swift */,
 			);
 			path = finalProjectApp;
 			sourceTree = "<group>";
@@ -425,6 +427,7 @@
 				E491BC1924BEDCF000D72AD9 /* MedicalInfoViewController.swift in Sources */,
 				43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */,
 				E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */,
+				43E35A5B24C0F488001E9144 /* CameraViewController.swift in Sources */,
 				E491BBF024BED89800D72AD9 /* finalProjectApp.xcdatamodeld in Sources */,
 				E491BBE824BED89800D72AD9 /* SceneDelegate.swift in Sources */,
 			);
