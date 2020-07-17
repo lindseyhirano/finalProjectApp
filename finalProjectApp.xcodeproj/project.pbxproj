@@ -11,6 +11,9 @@
 		43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E35A5824C0DB95001E9144 /* TimerViewController.swift */; };
 		43E35A5B24C0F488001E9144 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E35A5A24C0F488001E9144 /* CameraViewController.swift */; };
 		6F5C69CA66DBF894CD1D85D0 /* Pods_finalProjectAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C3679B8068F03153B1E748 /* Pods_finalProjectAppTests.framework */; };
+		722305DA24C131C700B31408 /* MedicationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722305D924C131C700B31408 /* MedicationTableViewController.swift */; };
+		722305DC24C1329100B31408 /* medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722305DB24C1329100B31408 /* medication.swift */; };
+		722305DE24C1424C00B31408 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722305DD24C1424C00B31408 /* AddMedicationViewController.swift */; };
 		793BD4ADA204C14A915191DE /* Pods_finalProjectApp_finalProjectAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C09166F09E951EF8E9F2351 /* Pods_finalProjectApp_finalProjectAppUITests.framework */; };
 		E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE524BED89800D72AD9 /* AppDelegate.swift */; };
 		E491BBE824BED89800D72AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491BBE724BED89800D72AD9 /* SceneDelegate.swift */; };
@@ -51,6 +54,9 @@
 		43E35A5824C0DB95001E9144 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		43E35A5A24C0F488001E9144 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		541B5CE6D02751AC96920109 /* Pods-finalProjectAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectAppTests.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectAppTests/Pods-finalProjectAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		722305D924C131C700B31408 /* MedicationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTableViewController.swift; sourceTree = "<group>"; };
+		722305DB24C1329100B31408 /* medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medication.swift; sourceTree = "<group>"; };
+		722305DD24C1424C00B31408 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
 		85B58BD1DFDD4BA9EA513C5A /* Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectApp-finalProjectAppUITests/Pods-finalProjectApp-finalProjectAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBAD96B1567929CBFA4B2AAC /* Pods-finalProjectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp.debug.xcconfig"; path = "Target Support Files/Pods-finalProjectApp/Pods-finalProjectApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D9830B2367DA6AA11284C388 /* Pods-finalProjectApp-finalProjectAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProjectApp-finalProjectAppUITests.release.xcconfig"; path = "Target Support Files/Pods-finalProjectApp-finalProjectAppUITests/Pods-finalProjectApp-finalProjectAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +157,9 @@
 				E491BC1A24BEDE4200D72AD9 /* PlantPageViewController.swift */,
 				43E35A5824C0DB95001E9144 /* TimerViewController.swift */,
 				43E35A5A24C0F488001E9144 /* CameraViewController.swift */,
+				722305D924C131C700B31408 /* MedicationTableViewController.swift */,
+				722305DB24C1329100B31408 /* medication.swift */,
+				722305DD24C1424C00B31408 /* AddMedicationViewController.swift */,
 			);
 			path = finalProjectApp;
 			sourceTree = "<group>";
@@ -422,10 +431,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722305DC24C1329100B31408 /* medication.swift in Sources */,
+				722305DE24C1424C00B31408 /* AddMedicationViewController.swift in Sources */,
 				E491BBEA24BED89800D72AD9 /* ViewController.swift in Sources */,
 				E491BC1B24BEDE4200D72AD9 /* PlantPageViewController.swift in Sources */,
 				E491BC1924BEDCF000D72AD9 /* MedicalInfoViewController.swift in Sources */,
 				43E35A5924C0DB95001E9144 /* TimerViewController.swift in Sources */,
+				722305DA24C131C700B31408 /* MedicationTableViewController.swift in Sources */,
 				E491BBE624BED89800D72AD9 /* AppDelegate.swift in Sources */,
 				43E35A5B24C0F488001E9144 /* CameraViewController.swift in Sources */,
 				E491BBF024BED89800D72AD9 /* finalProjectApp.xcdatamodeld in Sources */,
