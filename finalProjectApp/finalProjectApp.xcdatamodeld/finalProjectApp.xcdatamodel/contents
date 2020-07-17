@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MedicationCD" representedClassName="MedicationCD" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G3020" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ToDoCD" representedClassName="ToDoCD" syncable="YES" codeGenerationType="class">
+        <attribute name="important" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" attributeType="String" defaultValueString="NO"/>
-        <attribute name="time" attributeType="String" defaultValueString="NO"/>
     </entity>
     <elements>
-        <element name="MedicationCD" positionX="-45" positionY="0" width="128" height="73"/>
+        <element name="ToDoCD" positionX="-45" positionY="0" width="128" height="73"/>
     </elements>
 </model>
