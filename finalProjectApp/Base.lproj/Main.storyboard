@@ -88,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
                                 <connections>
-                                    <segue destination="sz3-Hn-HZf" kind="show" id="hQT-qK-RdW"/>
+                                    <segue destination="der-7N-n8F" kind="show" id="8eN-1h-3AP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAc-95-vq3">
@@ -275,13 +275,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medical ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59N-Ri-QuU">
-                                <rect key="frame" x="150" y="61" width="113" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxH-HC-myf">
                                 <rect key="frame" x="-50" y="773" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -318,7 +311,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
                                 <connections>
-                                    <segue destination="sz3-Hn-HZf" kind="show" id="qVy-Lx-pjX"/>
+                                    <segue destination="der-7N-n8F" kind="show" id="h5b-AP-jGX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBx-bL-eNA">
@@ -352,7 +345,7 @@
             <objects>
                 <tableViewController id="der-7N-n8F" customClass="ToDoTableTableViewController" customModule="finalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="egg-FQ-BBs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="sectionIndexBackgroundColor" red="0.92981684210000004" green="0.95677310230000001" blue="0.96078652139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -502,11 +495,6 @@
                                     <segue destination="8NS-rQ-fYx" kind="show" id="7tV-3u-KMx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vg6-xO-8k0">
-                                <rect key="frame" x="344" y="770" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="plus"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvP-OO-pSf">
                                 <rect key="frame" x="278" y="770" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -521,6 +509,14 @@
                                 <state key="normal" title="Button" image="Calendar"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="bs6-Dg-Qg4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOs-9I-hxF">
+                                <rect key="frame" x="344" y="770" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="der-7N-n8F" kind="show" id="Cgw-sX-bem"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -627,7 +623,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
                                 <connections>
-                                    <segue destination="sz3-Hn-HZf" kind="show" id="urQ-Ke-Cc1"/>
+                                    <segue destination="der-7N-n8F" kind="show" id="Abd-yp-rrU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTK-1v-EIi">
@@ -746,14 +742,6 @@
                                     <segue destination="8NS-rQ-fYx" kind="show" id="aX2-1K-9rZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcL-qQ-W83">
-                                <rect key="frame" x="346" y="760" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="plus"/>
-                                <connections>
-                                    <segue destination="sz3-Hn-HZf" kind="show" id="Q3l-go-Lel"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="at3-XT-uOU">
                                 <rect key="frame" x="280" y="760" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -768,6 +756,14 @@
                                 <state key="normal" title="Button" image="Calendar"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="0Fc-aC-nCa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWW-2W-ZOc">
+                                <rect key="frame" x="344" y="758" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="der-7N-n8F" kind="show" id="PbQ-Ua-WyG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -860,7 +856,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
                                 <connections>
-                                    <segue destination="sz3-Hn-HZf" kind="show" id="u2g-7b-KSg"/>
+                                    <segue destination="der-7N-n8F" kind="show" id="Lug-2q-fbC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxT-8M-Mfz">
@@ -909,12 +905,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2gg-4Q-ph9"/>
-        <segue reference="8rB-sX-b5h"/>
-        <segue reference="OPD-LX-51e"/>
-        <segue reference="Q3l-go-Lel"/>
-        <segue reference="aX2-1K-9rZ"/>
-        <segue reference="0Fc-aC-nCa"/>
+        <segue reference="QcA-cP-o9Z"/>
+        <segue reference="Tp8-XN-Kgb"/>
+        <segue reference="prI-js-add"/>
+        <segue reference="h5b-AP-jGX"/>
+        <segue reference="hHp-wO-fFl"/>
+        <segue reference="E7S-50-CSe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Calendar" width="3600" height="3600"/>
