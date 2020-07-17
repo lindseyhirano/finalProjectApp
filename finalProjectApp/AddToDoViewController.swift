@@ -16,7 +16,9 @@ class AddToDoViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     
 
-    @IBOutlet weak var importantSwitch: UISwitch!
+    
+    @IBOutlet weak var timeTextField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,8 +49,12 @@ class AddToDoViewController: UIViewController {
           //
                   if let titleText = titleTextField.text {
                       toDo.name = titleText
-                      toDo.important = importantSwitch.isOn
                   }
+            if let titleTextt = timeTextField.text {
+                 toDo.important = titleTextt
+            }
+            
+            
           //        previousVC.toDos.append(toDo)
           //        previousVC.tableView.reloadData()
                  
