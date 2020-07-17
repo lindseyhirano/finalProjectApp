@@ -36,21 +36,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many hours of sleep did you get?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tul-A4-a5h">
-                                <rect key="frame" x="31" y="566" width="352" height="71"/>
+                                <rect key="frame" x="30" y="582" width="352" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many 8oz glasses of water did you drink?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0a-K7-FE6">
-                                <rect key="frame" x="21" y="426" width="371" height="73"/>
+                                <rect key="frame" x="21" y="459" width="371" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xXj-XD-Agu">
-                                <rect key="frame" x="161" y="524" width="97" height="34"/>
+                                <rect key="frame" x="161" y="540" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -61,15 +61,8 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you have a seizure today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mv9-YH-yj8">
-                                <rect key="frame" x="22" y="336" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GD8-xF-igN">
-                                <rect key="frame" x="158" y="379" width="102" height="34"/>
+                                <rect key="frame" x="158" y="431" width="102" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -94,6 +87,9 @@
                                 <rect key="frame" x="345" y="781" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="sz3-Hn-HZf" kind="show" id="hQT-qK-RdW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAc-95-vq3">
                                 <rect key="frame" x="280" y="781" width="50" height="50"/>
@@ -121,9 +117,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="button" image="camera"/>
                                 <connections>
-                                    <segue destination="qHf-vW-1Ev" kind="show" id="TZT-Et-bNC"/>
+                                    <segue destination="qHf-vW-1Ev" kind="show" id="1wS-st-tif"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you have a seizure today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mv9-YH-yj8">
+                                <rect key="frame" x="30" y="382" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.91927248240000003" green="0.95839840170000001" blue="0.95902270079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -293,6 +296,9 @@
                                 <rect key="frame" x="211" y="789" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="button" image="camera"/>
+                                <connections>
+                                    <segue destination="qHf-vW-1Ev" kind="show" id="QcA-cP-o9Z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dz-Cd-hLI">
                                 <rect key="frame" x="81" y="791" width="50" height="50"/>
@@ -311,6 +317,9 @@
                                 <rect key="frame" x="342" y="788" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="sz3-Hn-HZf" kind="show" id="qVy-Lx-pjX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBx-bL-eNA">
                                 <rect key="frame" x="276" y="788" width="50" height="50"/>
@@ -474,7 +483,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="button" image="camera"/>
                                 <connections>
-                                    <segue destination="qHf-vW-1Ev" kind="show" id="med-2o-JXN"/>
+                                    <segue destination="qHf-vW-1Ev" kind="show" id="MFh-Yc-k1K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P4-tC-isy">
@@ -617,6 +626,9 @@
                                 <rect key="frame" x="344" y="815" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="sz3-Hn-HZf" kind="show" id="urQ-Ke-Cc1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTK-1v-EIi">
                                 <rect key="frame" x="278" y="815" width="50" height="50"/>
@@ -719,7 +731,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="button" image="camera"/>
                                 <connections>
-                                    <segue destination="qHf-vW-1Ev" kind="show" id="6sW-hb-zac"/>
+                                    <segue destination="qHf-vW-1Ev" kind="show" id="2gg-4Q-ph9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSm-u3-6T9">
@@ -739,6 +751,9 @@
                                 <rect key="frame" x="346" y="760" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="sz3-Hn-HZf" kind="show" id="Q3l-go-Lel"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="at3-XT-uOU">
                                 <rect key="frame" x="280" y="760" width="50" height="50"/>
@@ -845,6 +860,9 @@
                                 <rect key="frame" x="344" y="806" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <segue destination="sz3-Hn-HZf" kind="show" id="u2g-7b-KSg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxT-8M-Mfz">
                                 <rect key="frame" x="278" y="806" width="50" height="50"/>
@@ -892,11 +910,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6sW-hb-zac"/>
-        <segue reference="Ttq-49-eQ0"/>
-        <segue reference="BJz-8L-fdc"/>
-        <segue reference="hHp-wO-fFl"/>
-        <segue reference="232-SI-0db"/>
+        <segue reference="1wS-st-tif"/>
+        <segue reference="8rB-sX-b5h"/>
+        <segue reference="whe-Nu-j9j"/>
+        <segue reference="hQT-qK-RdW"/>
+        <segue reference="DZG-2u-wc2"/>
+        <segue reference="E7S-50-CSe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Calendar" width="3600" height="3600"/>
@@ -908,8 +927,8 @@
         <image name="flower" width="3600" height="3600"/>
         <image name="lightgreenlabel" width="3600" height="3600"/>
         <image name="pill" width="3600" height="3600"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus" width="3600" height="3600"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="stage1" width="1500" height="2100"/>
     </resources>
 </document>
