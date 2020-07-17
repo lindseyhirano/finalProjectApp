@@ -683,7 +683,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zk-U6-MD0">
                                 <rect key="frame" x="57" y="143" width="300" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89061547090000004" green="0.76796613759999999" blue="0.96391180200000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                 <color key="textColor" red="0.93742567300000001" green="0.95676285029999997" blue="0.96078652139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -910,12 +909,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1wS-st-tif"/>
+        <segue reference="2gg-4Q-ph9"/>
         <segue reference="8rB-sX-b5h"/>
-        <segue reference="whe-Nu-j9j"/>
-        <segue reference="hQT-qK-RdW"/>
-        <segue reference="DZG-2u-wc2"/>
-        <segue reference="E7S-50-CSe"/>
+        <segue reference="OPD-LX-51e"/>
+        <segue reference="Q3l-go-Lel"/>
+        <segue reference="aX2-1K-9rZ"/>
+        <segue reference="0Fc-aC-nCa"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Calendar" width="3600" height="3600"/>
