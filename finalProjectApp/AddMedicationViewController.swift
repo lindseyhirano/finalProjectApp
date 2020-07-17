@@ -19,13 +19,22 @@ class AddMedicationViewController: UIViewController {
     
 
   @IBAction func addTapped(_ sender: Any) {
-    let medication = Medication()
+    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+
+       // we are creating a new ToDoCD object here, naming it toDo
+       let medication = MedicationCD(entity: MedicationCD.entity(), insertInto: context)
+        
+        
+    //let medication = Medication()
     if let titleText = titleTextField.text {
       medication.name = titleText
       medication.time = titleText
     }
-    previousVC.medication.append(medication)
-    previousVC.tableView.reloadData()
+        try? context.save()
+    //previousVC.medication.append(medication)
+    //previousVC.tableView.reloadData()
+    
+    navigationController?.popViewController(animated: true)
   }
-
+    }
 }

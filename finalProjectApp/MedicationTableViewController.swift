@@ -15,6 +15,15 @@ class MedicationTableViewController: UITableViewController {
         super.viewDidLoad()
         medication = createMedication()
     }
+    func createMedication() -> [Medication] {
+
+         let swift = Medication()
+         swift.name = "Adderal"
+         swift.time = "9 am"
+         // important is set to false by default
+
+         return [swift]
+       }
 
     // MARK: - Table view data source
 
@@ -26,8 +35,8 @@ class MedicationTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        let meds = medication[indexPath.row]
+        
+        let medication = Medication[indexPath.row]
 
         return cell
     }
@@ -42,13 +51,5 @@ class MedicationTableViewController: UITableViewController {
          }
     }
     
-    func createMedication() -> [Medication] {
-
-      let swift = Medication()
-      swift.name = "Adderal"
-      swift.time = "9 am"
-      // important is set to false by default
-
-      return [swift]
-    }
+   
 }
